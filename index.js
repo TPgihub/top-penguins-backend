@@ -7,7 +7,8 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx3aEGMLwcsHL-2dfKFx5Yqa_RPuVngyHDYVm4ZqJwSm2045i1gvNWY1GJmyMg_BMVj/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbztn5oBu635g0-9rIywa2BwZMXcOhgsfcxmRo2GTpwrnFD4O6lJAQH-7z1L4y0quAkt/exec';
+
 
 app.post('/api/solicitud', async(req, res) => {
     try {
